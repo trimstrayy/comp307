@@ -1,19 +1,20 @@
-# comp207
-comp 207 commands report
+# comp307
 
-## Command Screenshot Mapping
+This repository holds a walkthrough of common Linux shell commands used for the COMP307 report. The full write-up lives in `comp307report.pdf`, and the raw terminal screenshots are in the `ss/` folder.
 
-| Command(s) | Screenshot |
-| --- | --- |
-| `pwd` | `ss/pwd.png` |
-| `ls`, `ls -a`, `ls -l` | `ss/ls_lsa_lsl.png` |
-| `cd ..`, follow-up `pwd`, `cd ~`, follow-up `pwd` | `ss/cd.png` |
-| `mkdir demo_dir`, `rmdir demo_dir`, `mkdir -p test/a/b`, `rm -r test` | `ss/mkdir_rmdir.png` |
-| `touch sample.txt`, `vim sample.txt`, `cat sample.txt`, `cp sample.txt copy.txt`, `echo "hello world" > sample.txt` | `ss/touch_vim_cat_cp_echo.png` |
-| `mv copy.txt renamed.txt`, `rm renamed.txt` | `ss/mv_rm.png` |
-| `grep "hello" sample.txt`, `find . -name "sample*"`, `chmod 755 sample.txt` | `ss/grep_find_chmod.png` |
-| `head sample.txt`, `tail sample.txt` | `ss/headtail.png` |
-| `history` | `ss/history.png` |
-| `uname -a`, `top -b -n 1` | `ss/uname.png` |
-| `df -h`, `du -sh ~`, `ps aux` | `ss/df_du_ps.png` |
-| `whoami`, `uptime`, `man ls`, `date` | `ss/whoami_uptime_man_date.png` |
+## Commands at a Glance
+
+- `pwd`: Print the current working directory.
+- `ls`, `ls -a`, `ls -l`: List directory contents in basic, all-files, and detailed formats.
+- `cd ..`, `cd ~`: Move to the parent or home directory.
+- `mkdir`, `mkdir -p`, `rmdir`, `rm -r`: Create directories, build nested paths, and remove them (including recursively).
+- `touch`, `vim`, `cat`, `cp`, `echo`: Create or edit files, view contents, duplicate files, and overwrite text.
+- `mv`, `rm`: Rename or move a file, then remove it.
+- `grep`, `find`, `chmod`: Search within files, locate files by name pattern, and change file permissions.
+- `head`, `tail`: Display the first or last lines of a file.
+- `history`: Review recent shell commands.
+- `uname -a`, `top -b -n 1`: Show system information and a non-interactive process snapshot.
+- `df -h`, `du -sh ~`, `ps aux`: Report disk usage, summarize directory size, and list running processes.
+- `whoami`, `uptime`, `man ls`, `date`: Check the current user, view system uptime, review manual pages, and display the current date/time.
+
+Refer to `comp307report.pdf` for descriptions paired with screenshots, and browse the `ss/` directory if you need the terminal outputs directly.
